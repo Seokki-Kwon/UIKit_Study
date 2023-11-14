@@ -1,13 +1,13 @@
 //
-//  AutoLayoutEx02.swift
+//  VisualFormatEx03.swift
 //  UIKitPratice
 //
-//  Created by SeokkiKwon on 11/13/23.
+//  Created by SeokkiKwon on 11/14/23.
 //
 
 import UIKit
 
-class AutoLayoutEx02: UIViewController {
+class VisualFormatEx03: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,13 +1,15 @@
 //
-//  AutoLayoutEx05.swift
+//  AdabtiveLayoutEx.swift
 //  UIKitPratice
 //
-//  Created by SeokkiKwon on 11/13/23.
+//  Created by SeokkiKwon on 11/14/23.
 //
 
 import UIKit
 
-class AutoLayoutEx05: UIViewController {
+// 장치 구성 표시줄을 사용하여 다양한 크기를 테스트
+// iPad 미리볼때 더 큰 글꼴과 더 큰 이미지가 나타나도록
+class AdabtiveLayoutEx: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
