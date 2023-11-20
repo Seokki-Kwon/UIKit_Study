@@ -10,7 +10,6 @@ import UIKit
 class AttractionTableViewController: UITableViewController {
     
     // 테이블 목록
-    var items = ["Kim", "Lee", "Park"]
     var attractionImages = [String]()
     var attractionNames = [String]()
     var webAddresses = [String]()

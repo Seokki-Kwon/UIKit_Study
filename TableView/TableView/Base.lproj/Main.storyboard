@@ -58,7 +58,13 @@
                             <outlet property="delegate" destination="sod-5r-O1N" id="bky-BK-2wJ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Attractions" id="bcx-O1-TZ8"/>
+                    <navigationItem key="navigationItem" title="Attractions" id="bcx-O1-TZ8">
+                        <barButtonItem key="rightBarButtonItem" title="SwiftUI" id="HWF-UP-pa0">
+                            <connections>
+                                <segue destination="53G-gp-MtM" kind="show" id="O83-Ge-fZw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tvListView" destination="gNQ-Dh-BWz" id="gAl-Zm-o96"/>
                     </connections>
@@ -100,7 +106,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EDo-bb-lek" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2653" y="5"/>
+            <point key="canvasLocation" x="3350" y="382"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ngZ-LG-XnH">
+            <objects>
+                <viewController id="53G-gp-MtM" customClass="ViewController" customModule="TableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yod-SM-yUd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="jC0-fB-qbQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="d4X-nF-bbd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QOv-RU-bWu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3351" y="-353"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IrF-At-WgZ">
