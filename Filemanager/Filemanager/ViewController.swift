@@ -104,6 +104,7 @@ class ViewController: UIViewController {
     }
     
     func ex_05() {
+        
         let sourceFile = fileManager.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent("test.dat").path
         let destinationFile = fileManager.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent("result2.txt").path
         
