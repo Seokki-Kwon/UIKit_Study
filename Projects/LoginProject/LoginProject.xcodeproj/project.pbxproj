@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E5004EB2BA41CB000E9776A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5004EA2BA41CB000E9776A /* LoginView.swift */; };
 		8ED8217A2BA171AD00671CD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED821792BA171AD00671CD8 /* AppDelegate.swift */; };
 		8ED8217C2BA171AD00671CD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8217B2BA171AD00671CD8 /* SceneDelegate.swift */; };
 		8ED8217E2BA171AD00671CD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8217D2BA171AD00671CD8 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E5004EA2BA41CB000E9776A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		8ED821762BA171AD00671CD8 /* LoginProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED821792BA171AD00671CD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ED8217B2BA171AD00671CD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E5004E82BA41C4700E9776A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8ED8217F2BA171AD00671CD8 /* Main.storyboard */,
+				8ED821792BA171AD00671CD8 /* AppDelegate.swift */,
+				8ED8217B2BA171AD00671CD8 /* SceneDelegate.swift */,
+				8E5004EA2BA41CB000E9776A /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8E5004E92BA41C5100E9776A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8ED8217D2BA171AD00671CD8 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		8ED8216D2BA171AC00671CD8 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +77,8 @@
 		8ED821782BA171AD00671CD8 /* LoginProject */ = {
 			isa = PBXGroup;
 			children = (
-				8ED821792BA171AD00671CD8 /* AppDelegate.swift */,
-				8ED8217B2BA171AD00671CD8 /* SceneDelegate.swift */,
-				8ED8217D2BA171AD00671CD8 /* ViewController.swift */,
-				8ED8217F2BA171AD00671CD8 /* Main.storyboard */,
+				8E5004E82BA41C4700E9776A /* Views */,
+				8E5004E92BA41C5100E9776A /* Controllers */,
 				8ED821822BA171AE00671CD8 /* Assets.xcassets */,
 				8ED821842BA171AE00671CD8 /* LaunchScreen.storyboard */,
 				8ED821872BA171AE00671CD8 /* Info.plist */,
@@ -140,6 +159,7 @@
 			files = (
 				8ED8217E2BA171AD00671CD8 /* ViewController.swift in Sources */,
 				8ED8217A2BA171AD00671CD8 /* AppDelegate.swift in Sources */,
+				8E5004EB2BA41CB000E9776A /* LoginView.swift in Sources */,
 				8ED8217C2BA171AD00671CD8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
